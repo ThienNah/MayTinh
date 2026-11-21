@@ -4,7 +4,7 @@ html {
 }
 body {
     align-items: center;
-    background: linear-gradient(300deg, #aba3d9, #fa7f7f, #5151f0);
+    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127), rgba(81, 81, 240));
     display: flex;
     font-family: sans-serif;
     height: inherit;
@@ -22,10 +22,10 @@ body {
     -webkit-backdrop-filter: blur(5px);
     border-radius: 20px;
     box-shadow: 0 5px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
+    color: rgba(35, 35, 35);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background: rgb(35, 35, 35);
+    background: rgba(35, 35, 35);
     border: 1px solid rgba(255, 255, 255, 0.5);
     flex-basis: 400px;
     height: 540px;
@@ -38,7 +38,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
+    color: rgba(35, 35, 35);
     font-size: 35px;
     overflow: auto;
     padding: 20px;
@@ -57,7 +57,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 20px;
     box-shadow: 0 4 px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
+    color: rgba(35, 35, 35);
     flex-basis: 20%;
     font-family: inherit;
     font-size: 24px;
@@ -70,38 +70,38 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 20px;
     box-shadow: 0 4 px 30px rgba(35, 35, 35, 0.1);
-    color: #fff;
-    background: rgb(60, 60, 245);
+    color: rgba(255, 255, 255);
+    background: rgba(60, 60, 245);
 }
 .blue-btn {
-    background: rgb(60, 60, 245);
-    color: #fff;
+    background: rgba(60, 60, 245);
+    color: rgba(255, 255, 255);
 }
 .calc-button:last-child:hover {
-    background-color: #3624ff;
-    color: #fff;
+    background-color: rgba(54, 36, 255);
+    color: rgba(255, 255, 255);
 }
 .calc-button:last-child:active {
-    background: rgb(60, 60, 245);
-    color: #fff;
+    background: rgba(60, 60, 245);
+    color: rgba(255, 255, 255);
 }
 .calc-button.blue-btn {
-    background: rgb(60, 60, 245);
-    color: #fff;
+    background: rgba(60, 60, 245);
+    color: rgba(255, 255, 255);
 }
 .calc-button.blue-btn:hover {
-    background: #3624ff;
-    color: #fff;
+    background: rgba(54, 36, 255);
+    color: rgba(255, 255, 255);
 }
 .calc-button.blue-btn:active {
-    background: #2414db;
-    color: #fff;
+    background: rgba(36, 20, 219);
+    color: rgba(255, 255, 255);
 }
 .calc-button:hover {
-    background-color: #e4e4e4;
+    background-color: rgba(228, 228, 228);
 }
 .calc-button:active {
-    background: #fff;
+    background: rgba(255, 255, 255);
 }
 .double {
     flex-basis: 47%;
