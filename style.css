@@ -4,7 +4,7 @@ html {
 }
 body {
     align-items: center;
-    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127), rgba(81, 81, 240));
+    background: linear-gradient(300deg, rgba(170, 165, 215),rgba(250, 125, 125), rgba(80, 80, 240));
     display: flex;
     font-family: sans-serif;
     height: inherit;
@@ -78,7 +78,7 @@ body {
     color: rgba(255, 255, 255);
 }
 .calc-button:last-child:hover {
-    background-color: rgba(54, 36, 255);
+    background-color: rgba(55, 35, 255);
     color: rgba(255, 255, 255);
 }
 .calc-button:last-child:active {
@@ -90,7 +90,7 @@ body {
     color: rgba(255, 255, 255);
 }
 .calc-button.blue-btn:hover {
-    background: rgba(54, 36, 255);
+    background: rgba(55, 35, 255);
     color: rgba(255, 255, 255);
 }
 .calc-button.blue-btn:active {
@@ -98,7 +98,7 @@ body {
     color: rgba(255, 255, 255);
 }
 .calc-button:hover {
-    background-color: rgba(228, 228, 228);
+    background-color: rgba(225, 225, 225);
 }
 .calc-button:active {
     background: rgba(255, 255, 255);
